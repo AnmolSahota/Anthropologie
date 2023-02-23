@@ -16,7 +16,7 @@ function Header() {
       <Grid
         templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
         gap={6}
-        w="95%"
+        w={{ base: "100%", md: "95%" }}
         m={"auto"}
         h="70px"
         border={"1px solid #E2E8F0"}
