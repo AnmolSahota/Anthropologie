@@ -3,6 +3,11 @@
   cursor: pointer;
 }
 
+.text:hover {
+  text-decoration: underline;
+  color: green;
+}
+
 .height {
   line-height: 70px;
   height: 70px;
@@ -13,4 +18,40 @@
   border-color: #fdfdf9;
   background-color: #fdfdf9;
   width: 120px;
+}
+.ham {
+  border-bottom: 1px solid #a0aec0;
+  cursor: pointer;
+  color: #26262c;
+  line-height: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.para {
+  font-size: 14px;
+  color: #26262c;
+}
+.para:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.select {
+  border: 1px solid #26262c;
+  border-radius: 5px;
+  margin-left: 15px;
+  height: 35px;
+}
+.cartbtn {
+  border: none;
+  display: block;
+  width: 60%;
+  height: 8%;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #ce258a;
+}
+.cartbtn:hover {
+  background-color: #22543d;
+  color: white;
 }

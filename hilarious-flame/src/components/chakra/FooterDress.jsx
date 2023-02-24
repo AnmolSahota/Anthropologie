@@ -1,9 +1,15 @@
 import React from "react";
 import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
-import { useState } from "react";
+import { Link, Navigate } from "react-router-dom";
 import styles from "../style/Navbarcss.module.css";
+import { useContext } from "react";
+import { pagecontext } from "../Context/Pagecontextprovider";
 function FooterDress(props) {
   let { dress, handledress, dresshanlde } = props;
+  let { change, setChange } = useContext(pagecontext);
+  let changer = () => {
+    console.log("fire");
+  };
   return (
     <>
       <Grid
@@ -46,7 +52,7 @@ function FooterDress(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Shop Alll Dresses
+            <Link to="/products/Dresses">Shop Alll Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -56,7 +62,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New!
+            <Link to="/products/Dresses">New!</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -66,7 +72,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Top Rated Dresses
+            <Link to="/products/Dresses">Top Rated Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -76,7 +82,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Jumpsuites
+            <Link to="/products/Dresses">Jumpsuites</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -86,7 +92,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Loudge & Casual Dresses
+            <Link to="/products/Dresses">Loudge & Casual Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -96,7 +102,7 @@ function FooterDress(props) {
             onMouseLeave={dresshanlde}
             className={styles.text}
           >
-            Maxi & Dresses
+            <Link to="/products/Dresses">Maxi & Dresses</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -127,7 +133,7 @@ function FooterDress(props) {
             className={styles.text}
             paddingTop={"18px"}
           >
-            Midi Dresses
+            <Link to="/products/Dresses">Midi Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -137,7 +143,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Mini & Tunic Dresses
+            <Link to="/products/Dresses">Mini & Tunic Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -147,7 +153,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Ocation & Party Dresses
+            <Link to="/products/Dresses">Ocation & Party Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -157,7 +163,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Trending Utility
+            <Link to="/products/Dresses">Trending Utility</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -167,7 +173,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Pattie Dresses
+            <Link to="/products/Dresses">Pattie Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -177,7 +183,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Plus Dresses
+            <Link to="/products/Dresses">Plus Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -187,7 +193,7 @@ function FooterDress(props) {
             className={styles.text}
             paddingBottom="6px"
           >
-            Wedding Dresses
+            <Link to="/products/Dresses">Wedding Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -197,7 +203,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Wedding Guest Dresses
+            <Link to="/products/Dresses">Wedding Guest Dresses</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -228,7 +234,7 @@ function FooterDress(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Bold & bright Dresses
+            <Link to="/products/Dresses">Bold & bright Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -238,7 +244,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Occation & Party Dresses
+            <Link to="/products/Dresses">Occation & Party Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -248,7 +254,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Shirt Dresses
+            <Link to="/products/Dresses">Shirt Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -258,7 +264,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Trendin Tulle
+            <Link to="/products/Dresses">Trendin Tulle</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -268,7 +274,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Little Back Dresses
+            <Link to="/products/Dresses">Little Back Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -278,7 +284,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Little White Dresses
+            <Link to="/products/Dresses">Little White Dresses</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -309,7 +315,7 @@ function FooterDress(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            A Special Occation
+            <Link to="/products/Dresses">A Special Occation</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -319,7 +325,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Proom Dresses
+            <Link to="/products/Dresses">Proom Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -329,7 +335,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            At Work Style
+            <Link to="/products/Dresses">At Work Style</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -339,7 +345,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Vaccation Ready
+            <Link to="/products/Dresses">Vaccation Ready</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -349,7 +355,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Bridal Shower Chic
+            <Link to="/products/Dresses">Bridal Shower Chic</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -359,7 +365,7 @@ function FooterDress(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Date Night Defined
+            <Link to="/products/Dresses">Date Night Defined</Link>
           </GridItem>
         </GridItem>
       </Grid>

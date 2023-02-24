@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../style/Navbarcss.module.css";
-
 import {
   Grid,
   GridItem,
@@ -12,6 +11,8 @@ import {
   Flex,
   Hide,
 } from "@chakra-ui/react";
+import Lastthree from "./Lastthree";
+import { Link } from "react-router-dom";
 function Four() {
   return (
     <Box w={"95%"} m="auto">
@@ -204,7 +205,9 @@ function Four() {
         paddingBottom={"10px"}
         marginTop="30px"
       >
-        <Text fontSize={"14px"}  color='#26262C' fontWeight={600} > Top Rated Pics</Text>
+        <Text fontSize={"18px"} color="#26262C" fontWeight={600}>
+          Top Rated Pics
+        </Text>
         <Text
           fontSize={"14px"}
           position={"absolute"}
@@ -212,21 +215,22 @@ function Four() {
           textDecoration="underline"
           color="#167A92"
         >
-          Show All
+          <Link to="/products/Dresses">Show All</Link>
         </Text>
       </Flex>
       <Grid
         gridTemplateColumns={{ base: "repeat(2,1fr)", md: "repeat(4,1fr)" }}
         gap={6}
+        mt="25px"
       >
         <GridItem>
           <Box>
             <Image src="https://images.ctfassets.net/5de70he6op10/1h9gkbrJB6rfKMEsrQsrlE/75fdaefe631d2d0e38d24b5e5d68ec10/473929238-ls_customerfave_a.jpg?w=630&q=80&fm=webp" />
           </Box>
-          <Text>CUSTOMER FAVORITE</Text>
-          <Text fontWeight={700} >The Marais Chiffon Maxi Dress</Text>
+          <Text my={"10px"}>CUSTOMER FAVORITE</Text>
+          <Text fontWeight={700}>The Marais Chiffon Maxi Dress</Text>
           <Text>★★★★★</Text>
-          <Text fontSize={"14px"} >
+          <Text fontSize={"14px"} mt="10px">
             Love - I have this in three colors. Why? Because you can throw it
             on, and the fit is seamless, it’s comfy it’s breezy.
           </Text>
@@ -238,10 +242,10 @@ function Four() {
           <Box>
             <Image src="https://images.ctfassets.net/5de70he6op10/2bvup8dYlhV23fJF8JWtBi/f007eb7c84134bfe87c3dd3669ffd06f/473929242-ls_customerfave_b.jpg?w=630&q=80&fm=webp" />
           </Box>
-          <Text>CUSTOMER FAVORITE</Text>
+          <Text my={"10px"}>CUSTOMER FAVORITE</Text>
           <Text fontWeight={700}>The Super Mini Slouchy Bag</Text>
           <Text>★★★★★</Text>
-          <Text fontSize={"14px"} >
+          <Text fontSize={"14px"} mt="10px">
             Super cute, perfect little crossbody. Holds your phone, money,
             lipstick and keys.
           </Text>
@@ -249,38 +253,48 @@ function Four() {
             shop now
           </Text>
         </GridItem>
-        <Hide below="md">
-          <GridItem>
-            <Box>
-              <Image src="https://images.ctfassets.net/5de70he6op10/7e6CTKkxyvEGN65qcfAD6e/833ca12cd46657912e24e81a42fc086a/473929246-ls_customerfave_c.jpg?w=630&q=80&fm=webp" />
-            </Box>
-            <Text>CUSTOMER FAVORITE</Text>
-            <Text fontWeight={700}>The Bennet Buttondown Shirt</Text>
-            <Text>★★★★★</Text>
-            <Text fontSize={"14px"} >
-              Oversized in the best way...it's a perfect cotton shirt.
-            </Text>
-            <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
-              shop now
-            </Text>
-          </GridItem>
-          <GridItem>
-            <Box>
-              <Image src="https://images.ctfassets.net/5de70he6op10/IRIRM5boIBRZTPtM9RGo2/d5a954acdea330f877f48ee00b9dd9e7/473929254-ls_customerfave_d.jpg?w=630&q=80&fm=webp" />
-            </Box>
-            <Box textStyle="h1">CUSTOMER FAVORITE</Box>
-            <Text fontWeight={700}>The Colette Wide-Leg Pants</Text>
-            <Text>★★★★★</Text>
-            <Text fontSize={"14px"} >
-              I LOVE THESE PANTS! They feel good on, whether I'm standing,
-              sitting, or walking. Overall 10/10 would recommend!
-            </Text>
-            <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
-              shop now
-            </Text>
-          </GridItem>
-        </Hide>
+        <GridItem>
+          <Box>
+            <Image src="https://images.ctfassets.net/5de70he6op10/7e6CTKkxyvEGN65qcfAD6e/833ca12cd46657912e24e81a42fc086a/473929246-ls_customerfave_c.jpg?w=630&q=80&fm=webp" />
+          </Box>
+          <Text my={"10px"}>CUSTOMER FAVORITE</Text>
+          <Text fontWeight={700}>The Bennet Buttondown Shirt</Text>
+          <Text>★★★★★</Text>
+          <Text fontSize={"14px"} mt="10px">
+            Oversized in the best way...it's a perfect cotton shirt.
+          </Text>
+          <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
+            shop now
+          </Text>
+        </GridItem>
+        <GridItem>
+          <Box>
+            <Image src="https://images.ctfassets.net/5de70he6op10/IRIRM5boIBRZTPtM9RGo2/d5a954acdea330f877f48ee00b9dd9e7/473929254-ls_customerfave_d.jpg?w=630&q=80&fm=webp" />
+          </Box>
+          <Box my={"10px"}>CUSTOMER FAVORITE</Box>
+          <Text fontWeight={700}>The Colette Wide-Leg Pants</Text>
+          <Text>★★★★★</Text>
+          <Text fontSize={"14px"} mt="10px">
+            I LOVE THESE PANTS! They feel good on, whether I'm standing,
+            sitting, or walking. Overall 10/10 would recommend!
+          </Text>
+          <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
+            shop now
+          </Text>
+        </GridItem>
       </Grid>
+      <Text
+        fontSize={"18px"}
+        color="#26262C"
+        fontWeight={600}
+        my={"15px"}
+        borderBottom="1px solid #A0AEC0"
+        paddingBottom={"10px"}
+        marginTop="30px"
+      >
+        You may also like this
+      </Text>
+      <Lastthree />
     </Box>
   );
 }

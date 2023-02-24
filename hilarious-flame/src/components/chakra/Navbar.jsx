@@ -76,7 +76,15 @@ export default function Navbar() {
     setGarden(true);
   };
   return (
-    <Box position={"relative"} w={"95%"} m="auto">
+    <Box
+      position={"sticky"}
+      w={"95%"}
+      m="auto"
+      top={"70px"}
+      bg={"white"}
+      zIndex={2}
+      border={"1px solid #E2E8F0"}
+    >
       <Grid
         gridTemplateColumns={{ base: "repeat(8,1fr)", md: "repeat(10,1fr)" }}
         borderBottom="2px solid #EDF2F7"

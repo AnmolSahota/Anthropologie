@@ -1,7 +1,7 @@
 import React from "react";
-import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
+import { Grid, GridItem, Text } from "@chakra-ui/react";
 import styles from "../style/Navbarcss.module.css";
-
+import { Link } from "react-router-dom";
 function Footershoes(props) {
   let { shoes, handleshoes, shoeshanlde } = props;
   return (
@@ -46,7 +46,7 @@ function Footershoes(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Shop Alll Shoes
+            <Link to="/products/Shoes">Shop Alll Shoes</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -56,7 +56,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New!
+            <Link to="/products/Shoes">New!</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -66,7 +66,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Top Rated
+            <Link to="/products/Shoes">Top Rated</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -76,7 +76,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Boots & Booties
+            <Link to="/products/Shoes">Boots & Booties</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -86,7 +86,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Cold Weather Boots
+            <Link to="/products/Shoes">Cold Weather Boots</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -96,7 +96,7 @@ function Footershoes(props) {
             onMouseLeave={shoeshanlde}
             className={styles.text}
           >
-            Flats
+            <Link to="/products/Shoes">Flats</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -127,7 +127,7 @@ function Footershoes(props) {
             className={styles.text}
             paddingTop={"18px"}
           >
-            Heels & Wedges
+            <Link to="/products/Shoes">Heels & Wedges</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -137,7 +137,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Muls & Clogs
+            <Link to="/products/Shoes">Muls & Clogs</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -147,7 +147,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Sandles
+            <Link to="/products/Shoes">Sandles</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -157,7 +157,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Slipers
+            <Link to="/products/Shoes">Slipers</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -167,7 +167,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Sneakers
+            <Link to="/products/Shoes">Sneakers</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -177,7 +177,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Socks & Tights
+            <Link to="/products/Shoes">Socks & Tights</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -208,7 +208,7 @@ function Footershoes(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Rainbow bright Shoes & Accessories
+            <Link to="/products/Shoes">Rainbow bright Shoes & Accessories</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -218,7 +218,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Embalish Shoes
+            <Link to="/products/Shoes">Embalish Shoes</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -228,7 +228,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Party Shoes
+            <Link to="/products/Shoes">Party Shoes</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -238,7 +238,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Platform Shoes
+            <Link to="/products/Shoes">Platform Shoes</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -248,7 +248,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Fishman Sandles
+            <Link to="/products/Shoes">Fishman Sandles</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -258,7 +258,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Wedges
+            <Link to="/products/Shoes">Wedges</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -289,7 +289,7 @@ function Footershoes(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            ON
+            <Link to="/products/Shoes">ON</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -299,7 +299,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Bibi Love
+            <Link to="/products/Shoes">Bibi Love</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -309,7 +309,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Birken stock
+            <Link to="/products/Shoes">Birken stock</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -319,7 +319,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Jefery Campali
+            <Link to="/products/Shoes">Jefery Campali</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -329,7 +329,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New Balance
+            <Link to="/products/Shoes">New Balance</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -339,7 +339,7 @@ function Footershoes(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Tave
+            <Link to="/products/Shoes">Tave</Link>
           </GridItem>
         </GridItem>
       </Grid>

@@ -1,8 +1,13 @@
 import React from "react";
 import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
 import styles from "../style/Navbarcss.module.css";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { pagecontext } from "../Context/Pagecontextprovider";
 function FooterAcces(props) {
+  let { change, setChange } = useContext(pagecontext);
   let { accces, handleAcces, acccesHandle } = props;
+
   return (
     <>
       <Grid
@@ -219,7 +224,7 @@ function FooterAcces(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Neckless
+            <Link to="/products/Jewelry">Neckless</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -229,7 +234,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Earings
+            <Link to="/products/Jewelry">Earings</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -239,7 +244,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Bracelets
+            <Link to="/products/Jewelry">Bracelets</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -249,7 +254,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Rings
+            <Link to="/products/Jewelry">Rings</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -259,7 +264,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Hoop Shop
+            <Link to="/products/Jewelry">Hoop Shop</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -269,7 +274,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Manogram
+            <Link to="/products/Jewelry">Manogram</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -300,7 +305,7 @@ function FooterAcces(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            The Peri Edit
+            <Link to="/products/Jewelry">The Peri Edit</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -310,7 +315,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Sings Bags
+            <Link to="/products/Jewelry">Sings Bags</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -320,7 +325,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Birken stock
+            <Link to="/products/Jewelry">Birken stock</Link>
           </GridItem>
         </GridItem>
       </Grid>

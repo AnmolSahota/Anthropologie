@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../style/Navbarcss.module.css";
 import {
   Box,
   Center,
@@ -66,7 +67,7 @@ function Footer() {
         paddingLeft={{ base: "15px", md: "3%" }}
         paddingRight={{ base: "15px", md: "3%" }}
         bg="#FAFAFA"
-        border={"1px solid #A0AEC0"}
+        borderTop={"1px solid #A0AEC0"}
         paddingTop="20px"
         paddingBottom={"20px"}
       >
@@ -118,7 +119,7 @@ function Footer() {
             <Box
               fontWeight={600}
               border={{ base: "1px solid #E2E8F0", md: "none" }}
-              h={"40px"}
+              h={"35px"}
               lineHeight="40px"
               paddingLeft={{ base: "10px", md: "0px" }}
               onClick={handlehelp}
@@ -128,49 +129,55 @@ function Footer() {
             <Box display={{ base: help ? "none" : "block", md: "block" }}>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Track Your Order
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Returns & Exchanges
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Shipping
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Customer Service
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Current Promotions
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Product Recalls
               </Box>
@@ -190,41 +197,46 @@ function Footer() {
             <Box display={{ base: about ? "none" : "block", md: "block" }}>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Our Story
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Events
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 A Greater Good
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Diversity & Inclusion
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Stories
               </Box>
@@ -244,49 +256,55 @@ function Footer() {
             <Box display={{ base: service ? "none" : "block", md: "block" }}>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 AnthroPerks
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Gift Cards
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
-                AnthroLiving Designer & Trade Program
+                AnthroLiving Designer
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
-                Furniture: Guides & Services
+                Services
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
-                Store Pickup & Collection Points
+                Store Pickup
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Klarna
               </Box>
@@ -306,47 +324,53 @@ function Footer() {
             <Box display={{ base: connect ? "none" : "block", md: "block" }}>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Contact Us
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Stay Connected
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
               >
                 Careers
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
+                className={styles.ham}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
               >
                 Styling Services
               </Box>
               <Box
                 paddingLeft={{ base: "10px", md: "0px" }}
-                h={{ base: "40px", md: "auto" }}
-                lineHeight={{ base: "40px", md: "auto" }}
+                h={{ base: "40px", md: "35px" }}
+                lineHeight={{ base: "40px", md: "35px" }}
                 borderBottom={{ base: "1px solid #E2E8F0", md: "none" }}
+                className={styles.ham}
+
               >
                 Request A Catalog
               </Box>
             </Box>
           </GridItem>
-          <GridItem w="100%" h="10" paddingLeft={{ base: "15px", md: "0px" }}>
+          <GridItem w="100%" h="10" paddingLeft={{ base: "15px", md: "0px" }} fontSize={"14px"} >
             <Text color={"#319795"}>Store Locator</Text>
             <Text color={"#319795"}>Get Email</Text>
           </GridItem>
