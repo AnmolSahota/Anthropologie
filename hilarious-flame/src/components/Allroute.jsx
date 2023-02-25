@@ -6,6 +6,7 @@ import Signup from './pages/Signup'
 import Cart from './pages/Cart'
 import Product from './pages/Product'
 import NotFound from './pages/NotFound'
+import Singlepage from './pages/Singlepage'
 function Allroute() {
   return (
     <Routes>
@@ -14,6 +15,7 @@ function Allroute() {
       <Route path='/signup' element={<Signup/>} ></Route>
       <Route path='/cart' element={<Cart/>} ></Route>
       <Route path='/products/:Value' element={<Product/>} ></Route>
+      <Route path='/product/:catogary/:id' element={<Singlepage/>} ></Route>
       <Route path='*' element={<NotFound/>} ></Route>
     </Routes>
   )

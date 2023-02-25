@@ -1,0 +1,82 @@
+.count {
+  color: #26262c;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.top {
+  color: #26262c;
+  font-size: 14px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.title {
+  color: #26262c;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.brand {
+  color: #26262c;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.random {
+  color: #5c5c5f;
+}
+.bold {
+  font-weight: 500;
+}
+.select {
+  padding: 5px 20px;
+  border: 1px solid #5c5c5f;
+  border-radius: 5px;
+}
+.summry {
+  position: absolute;
+  right: 0px;
+  color: #26262c;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.right {
+  position: absolute;
+  color: #5c5c5f;
+  right: 0%;
+  font-size: 14px;
+}
+.left {
+  color: #26262c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.desc {
+  color: #26262c;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.btn {
+  -webkit-font-smoothing: antialiased;
+  background-color: #4b5666;
+  cursor: pointer;
+  line-height: normal;
+  color: white;
+  min-height: 45px;
+  padding: 10px 20px;
+  transition-duration: 0.2s;
+  transition-property: color, background-color, border-color;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.btn:hover {
+  background-color: white;
+  color: teal;
+  border: 1px teal solid;
+}
+.shoping {
+  color: teal;
+  text-decoration: underline;
+}
