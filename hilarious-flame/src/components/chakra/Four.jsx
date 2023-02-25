@@ -221,68 +221,78 @@ function Four() {
       <Grid
         gridTemplateColumns={{ base: "repeat(2,1fr)", md: "repeat(4,1fr)" }}
         gap={6}
+        w={"95%"}
+        m="auto"
         mt="25px"
       >
         <GridItem>
-          <Box>
-            <Image src="https://images.ctfassets.net/5de70he6op10/1h9gkbrJB6rfKMEsrQsrlE/75fdaefe631d2d0e38d24b5e5d68ec10/473929238-ls_customerfave_a.jpg?w=630&q=80&fm=webp" />
-          </Box>
-          <Text my={"10px"}>CUSTOMER FAVORITE</Text>
-          <Text fontWeight={700}>The Marais Chiffon Maxi Dress</Text>
-          <Text>★★★★★</Text>
-          <Text fontSize={"14px"} mt="10px">
-            Love - I have this in three colors. Why? Because you can throw it
-            on, and the fit is seamless, it’s comfy it’s breezy.
-          </Text>
-          <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
-            shop now
-          </Text>
+          <Link to={"/product/Dresses/139"}>
+            <Box>
+              <Image src="https://images.ctfassets.net/5de70he6op10/1h9gkbrJB6rfKMEsrQsrlE/75fdaefe631d2d0e38d24b5e5d68ec10/473929238-ls_customerfave_a.jpg?w=630&q=80&fm=webp" />
+            </Box>
+            <Text my={"10px"}>CUSTOMER FAVORITE</Text>
+            <Text fontWeight={700}>The Marais Chiffon Maxi Dress</Text>
+            <Text>★★★★★</Text>
+            <Text fontSize={"14px"} mt="10px">
+              Love - I have this in three colors. Why? Because you can throw it
+              on, and the fit is seamless, it’s comfy it’s breezy.
+            </Text>
+            <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
+              shop now
+            </Text>
+          </Link>
         </GridItem>
         <GridItem>
-          <Box>
-            <Image src="https://images.ctfassets.net/5de70he6op10/2bvup8dYlhV23fJF8JWtBi/f007eb7c84134bfe87c3dd3669ffd06f/473929242-ls_customerfave_b.jpg?w=630&q=80&fm=webp" />
-          </Box>
-          <Text my={"10px"}>CUSTOMER FAVORITE</Text>
-          <Text fontWeight={700}>The Super Mini Slouchy Bag</Text>
-          <Text>★★★★★</Text>
-          <Text fontSize={"14px"} mt="10px">
-            Super cute, perfect little crossbody. Holds your phone, money,
-            lipstick and keys.
-          </Text>
-          <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
-            shop now
-          </Text>
+          <Link to={"/product/Dresses/140"}>
+            <Box>
+              <Image src="https://images.ctfassets.net/5de70he6op10/2bvup8dYlhV23fJF8JWtBi/f007eb7c84134bfe87c3dd3669ffd06f/473929242-ls_customerfave_b.jpg?w=630&q=80&fm=webp" />
+            </Box>
+            <Text my={"10px"}>CUSTOMER FAVORITE</Text>
+            <Text fontWeight={700}>The Super Mini Slouchy Bag</Text>
+            <Text>★★★★★</Text>
+            <Text fontSize={"14px"} mt="10px">
+              Super cute, perfect little crossbody. Holds your phone, money,
+              lipstick and keys.
+            </Text>
+            <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
+              shop now
+            </Text>
+          </Link>
         </GridItem>
         <GridItem>
-          <Box>
-            <Image src="https://images.ctfassets.net/5de70he6op10/7e6CTKkxyvEGN65qcfAD6e/833ca12cd46657912e24e81a42fc086a/473929246-ls_customerfave_c.jpg?w=630&q=80&fm=webp" />
-          </Box>
-          <Text my={"10px"}>CUSTOMER FAVORITE</Text>
-          <Text fontWeight={700}>The Bennet Buttondown Shirt</Text>
-          <Text>★★★★★</Text>
-          <Text fontSize={"14px"} mt="10px">
-            Oversized in the best way...it's a perfect cotton shirt.
-          </Text>
-          <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
-            shop now
-          </Text>
+          <Link to={"/product/Dresses/141"}>
+            <Box>
+              <Image src="https://images.ctfassets.net/5de70he6op10/7e6CTKkxyvEGN65qcfAD6e/833ca12cd46657912e24e81a42fc086a/473929246-ls_customerfave_c.jpg?w=630&q=80&fm=webp" />
+            </Box>
+            <Text my={"10px"}>CUSTOMER FAVORITE</Text>
+            <Text fontWeight={700}>The Bennet Buttondown Shirt</Text>
+            <Text>★★★★★</Text>
+            <Text fontSize={"14px"} mt="10px">
+              Oversized in the best way...it's a perfect cotton shirt.
+            </Text>
+            <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
+              shop now
+            </Text>
+          </Link>
         </GridItem>
         <GridItem>
-          <Box>
-            <Image src="https://images.ctfassets.net/5de70he6op10/IRIRM5boIBRZTPtM9RGo2/d5a954acdea330f877f48ee00b9dd9e7/473929254-ls_customerfave_d.jpg?w=630&q=80&fm=webp" />
-          </Box>
-          <Box my={"10px"}>CUSTOMER FAVORITE</Box>
-          <Text fontWeight={700}>The Colette Wide-Leg Pants</Text>
-          <Text>★★★★★</Text>
-          <Text fontSize={"14px"} mt="10px">
-            I LOVE THESE PANTS! They feel good on, whether I'm standing,
-            sitting, or walking. Overall 10/10 would recommend!
-          </Text>
-          <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
-            shop now
-          </Text>
+          <Link to={"/product/Dresses/142"}>
+            <Box>
+              <Image src="https://images.ctfassets.net/5de70he6op10/IRIRM5boIBRZTPtM9RGo2/d5a954acdea330f877f48ee00b9dd9e7/473929254-ls_customerfave_d.jpg?w=630&q=80&fm=webp" />
+            </Box>
+            <Box my={"10px"}>CUSTOMER FAVORITE</Box>
+            <Text fontWeight={700}>The Colette Wide-Leg Pants</Text>
+            <Text>★★★★★</Text>
+            <Text fontSize={"14px"} mt="10px">
+              I LOVE THESE PANTS! They feel good on, whether I'm standing,
+              sitting, or walking. Overall 10/10 would recommend!
+            </Text>
+            <Text fontSize={"14px"} textDecoration="underline" color="#167A92">
+              shop now
+            </Text>
+          </Link>
         </GridItem>
-      </Grid>
+      </Grid>{" "}
       <Text
         fontSize={"18px"}
         color="#26262C"
