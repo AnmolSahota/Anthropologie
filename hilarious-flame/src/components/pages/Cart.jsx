@@ -27,7 +27,7 @@ function Cart() {
         return el;
       }
     });
-    // console.log(arr);
+    console.log(arr);
     sedata(arr);
   };
   return (
