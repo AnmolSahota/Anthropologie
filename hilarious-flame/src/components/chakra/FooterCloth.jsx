@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Center, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import styles from "../style/Navbarcss.module.css";
+import { Link } from "react-router-dom";
 
 function Product(props) {
   let { cloth, handlecloth, clothhandle } = props;
@@ -46,7 +47,7 @@ function Product(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Shop Alll Clothing
+            <Link to="/products/Shoes">Shop Alll Clothing</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -56,7 +57,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New!
+            <Link to="/products/Shoes">New!</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -66,7 +67,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Top Rated
+            <Link to="/products/Shoes">Top Rated</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -76,7 +77,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            ACtiviear
+            <Link to="/products/Shoes">ACtiviear</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -86,7 +87,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Biazer
+            <Link to="/products/Shoes">Biazer</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -96,7 +97,7 @@ function Product(props) {
             onMouseLeave={clothhandle}
             className={styles.text}
           >
-            Dresses
+            <Link to="/products/Shoes">Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -106,7 +107,7 @@ function Product(props) {
             onMouseLeave={clothhandle}
             className={styles.text}
           >
-            Gateway & Resourt Wear
+            <Link to="/products/Shoes">Gateway & Resourt Wear</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -116,7 +117,7 @@ function Product(props) {
             onMouseLeave={clothhandle}
             className={styles.text}
           >
-            Intimate & Lingre
+            <Link to="/products/Shoes">Intimate & Lingre</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -147,7 +148,7 @@ function Product(props) {
             className={styles.text}
             paddingTop={"18px"}
           >
-            Kimonos
+            <Link to="/products/Shoes">Kimonos</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -157,7 +158,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Loungewear
+            <Link to="/products/Shoes">Loungewear</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -167,7 +168,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Pajama & Robes
+            <Link to="/products/Shoes">Pajama & Robes</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -177,7 +178,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Pants
+            <Link to="/products/Shoes">Pants</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -187,7 +188,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Panties
+            <Link to="/products/Shoes">Panties</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -197,7 +198,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Skirts
+            <Link to="/products/Shoes">Skirts</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -207,7 +208,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Swaters
+            <Link to="/products/Shoes">Swaters</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -217,7 +218,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Tops & Tees
+            <Link to="/products/Shoes">Tops & Tees</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -248,7 +249,7 @@ function Product(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Trending Utilities
+            <Link to="/products/Shoes">Trending Utilities</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -258,7 +259,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Trending the Bubble
+            <Link to="/products/Shoes">Trending the Bubble</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -268,7 +269,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Denim Every Day Every way
+            <Link to="/products/Shoes">Denim Every Day Every way</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -278,7 +279,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            The Shirt Shop
+            <Link to="/products/Shoes">The Shirt Shop</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -288,7 +289,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            The Linen Edit
+            <Link to="/products/Shoes">The Linen Edit</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -298,7 +299,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            The White Shop
+            <Link to="/products/Shoes">The White Shop</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -308,7 +309,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Packing List 101 The Must Have
+            <Link to="/products/Shoes">Packing List 101 The Must Have</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -339,7 +340,7 @@ function Product(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            A Special Occation
+            <Link to="/products/Shoes">A Special Occation</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -349,7 +350,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Proom clothes
+            <Link to="/products/Shoes">Proom clothes</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -359,7 +360,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            At Work Style
+            <Link to="/products/Shoes">At Work Style</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -369,7 +370,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Vaccation Ready
+            <Link to="/products/Shoes">Vaccation Ready</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -379,7 +380,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Bridal Shower Chic
+            <Link to="/products/Shoes">Bridal Shower Chic</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -389,7 +390,7 @@ function Product(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Date Night Defined
+            <Link to="/products/Shoes">Date Night Defined</Link>
           </GridItem>
         </GridItem>
         <GridItem

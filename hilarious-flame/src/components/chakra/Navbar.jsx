@@ -177,7 +177,7 @@ export default function Navbar() {
             )}
           </Hide>
         </GridItem>
-        <GridItem
+        {/* <GridItem
           className={styles.height}
           onMouseEnter={handleBuet}
           onMouseLeave={BurtyHandle}
@@ -190,7 +190,7 @@ export default function Navbar() {
               <ChevronUpIcon fontSize={"18px"} />
             )}
           </Hide>
-        </GridItem>
+        </GridItem> */}
         <GridItem
           className={styles.height}
           onMouseEnter={handlegift}

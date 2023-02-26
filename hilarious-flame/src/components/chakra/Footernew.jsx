@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import styles from "../style/Navbarcss.module.css";
-
+import { Link } from "react-router-dom";
 function Footernew(props) {
   let { shop, handleshop, shophandle } = props;
   return (
@@ -44,7 +44,7 @@ function Footernew(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Accessories
+            <Link to="/products/Jewelry">Accessories</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -54,7 +54,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Clothing
+            <Link to="/products/Jewelry">Clothing</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -64,7 +64,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Dresses
+            <Link to="/products/Jewelry">Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -74,7 +74,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Home & Furniture
+            <Link to="/products/Jewelry">Home & Furniture</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -84,7 +84,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Jewellry
+            <Link to="/products/Jewelry">Jewellry</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -94,7 +94,7 @@ function Footernew(props) {
             onMouseLeave={shophandle}
             className={styles.text}
           >
-            Petties
+            <Link to="/products/Jewelry">Petties</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -104,7 +104,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Plus
+            <Link to="/products/Jewelry">Plus</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -114,7 +114,7 @@ function Footernew(props) {
             onMouseLeave={shophandle}
             className={styles.text}
           >
-            Shoes
+            <Link to="/products/Jewelry">Shoes</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -146,7 +146,7 @@ function Footernew(props) {
             className={styles.text}
             paddingTop={"18px"}
           >
-            (Spring)Time to Celibrate
+            <Link to="/products/Jewelry">(Spring)Time to Celibrate</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -156,7 +156,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Trending Citus Shades
+            <Link to="/products/Jewelry">Trending Citus Shades</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -166,7 +166,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Spring 2023 Scuipture+Shape
+            <Link to="/products/Jewelry">Spring 2023 Scuipture+Shape</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -176,7 +176,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Trending Utility
+            <Link to="/products/Jewelry">Trending Utility</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -186,7 +186,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Trending the Bubble
+            <Link to="/products/Jewelry">Trending the Bubble</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -196,7 +196,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Denim Every way,Every Day
+            <Link to="/products/Jewelry">Denim Every way,Every Day</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -206,7 +206,7 @@ function Footernew(props) {
             className={styles.text}
             paddingBottom="6px"
           >
-            New Today Clothing & Accessories
+            <Link to="/products/Jewelry">New Today Clothing & Accessories</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -216,7 +216,9 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            10 Step To Spring-Fowered Your Home
+            <Link to="/products/Jewelry">
+              10 Step To Spring-Fowered Your Home
+            </Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -226,7 +228,7 @@ function Footernew(props) {
             onMouseLeave={shophandle}
             className={styles.text}
           >
-            Jerrele Guy For Anthropologie
+            <Link to="/products/Jewelry">Jerrele Guy For Anthropologie</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -257,7 +259,7 @@ function Footernew(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Frame
+            <Link to="/products/Jewelry">Frame</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -267,7 +269,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Good American
+            <Link to="/products/Jewelry">Good American</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -277,7 +279,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Joe Jeans
+            <Link to="/products/Jewelry">Joe Jeans</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -287,7 +289,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Uncommon Jeans
+            <Link to="/products/Jewelry">Uncommon Jeans</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -297,7 +299,7 @@ function Footernew(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Teva
+            <Link to="/products/Jewelry">Teva</Link>
           </GridItem>
         </GridItem>
         <GridItem

@@ -8,6 +8,7 @@ import Dollor from "../chakra/Dollor";
 import Header from "../chakra/Header";
 import Navbar from "../chakra/Navbar";
 import styles from "../style/Navbarcss.module.css";
+import Buttontoaster from "./Buttontoaster";
 import {
   Show,
   Hide,
@@ -92,16 +93,33 @@ function Singlepage() {
             Online Exclusive
           </Text>
           <Text fontWeight={500}>Fit*</Text>
-          <button className={styles.Fit}>Standard</button>
-          <button className={styles.Fit} id={styles.one}>
-            Petite
-          </button>
+          <span style={{ paddingRight: "20px" }}>
+            <Buttontoaster
+              title={"Standard"}
+              className={styles.Fit}
+            ></Buttontoaster>
+          </span>
+          <Buttontoaster title={"Petite"}>
+            <button className={styles.Fit} id={styles.one}>
+              Petite
+            </button>
+          </Buttontoaster>
           <Text fontWeight={500}>Size*</Text>
-          <button className={styles.size}>XXS</button>
-          <button className={styles.size}>XS</button>
-          <button className={styles.size}>S</button>
-          <button className={styles.size}>M</button>
-          <button className={styles.size}>L</button>
+          <Buttontoaster title={"XXS"}>
+            <button className={styles.size}>XXS</button>
+          </Buttontoaster>
+          <Buttontoaster title={"XS"}>
+            <button className={styles.size}>XS</button>
+          </Buttontoaster>
+          <Buttontoaster title={"S"}>
+            <button className={styles.size}>S</button>
+          </Buttontoaster>
+          <Buttontoaster title={"M"}>
+            <button className={styles.size}>M</button>
+          </Buttontoaster>
+          <Buttontoaster title={"L"}>
+            <button className={styles.size}>L</button>
+          </Buttontoaster>
           <Text className={styles.singlegleguide}>Size Guide</Text>
           <Text fontSize={"14px"} fontWeight={500}>
             Qty*

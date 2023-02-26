@@ -1,6 +1,7 @@
 import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import styles from "../style/Navbarcss.module.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function FooteWedding(props) {
   let { wedd, hanldwedd, weedHandle } = props;
@@ -47,7 +48,7 @@ function FooteWedding(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Explore All Weddings
+            <Link to="/products/Dresses">Explore All Weddings</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -57,7 +58,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Book an Appointment
+            <Link to="/products/Dresses">Book an Appointment</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -67,7 +68,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Shop All Weddings
+            <Link to="/products/Dresses">Shop All Weddings</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -77,7 +78,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New!
+            <Link to="/products/Dresses">New!</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -87,7 +88,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Top Rated styles
+            <Link to="/products/Dresses">Top Rated styles</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -97,7 +98,7 @@ function FooteWedding(props) {
             onMouseLeave={weedHandle}
             className={styles.text}
           >
-            Bride
+            <Link to="/products/Dresses">Bride</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -107,7 +108,7 @@ function FooteWedding(props) {
             onMouseLeave={weedHandle}
             className={styles.text}
           >
-            Wedding Dresses
+            <Link to="/products/Dresses">Wedding Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -117,7 +118,7 @@ function FooteWedding(props) {
             onMouseLeave={weedHandle}
             className={styles.text}
           >
-            Bridemaid Dresses
+            <Link to="/products/Dresses">Bridemaid Dresses</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -148,7 +149,7 @@ function FooteWedding(props) {
             className={styles.text}
             paddingTop={"18px"}
           >
-            Mother of Bride
+            <Link to="/products/Dresses">Mother of Bride</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -158,7 +159,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Flower Girl Dresses
+            <Link to="/products/Dresses">Flower Girl Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -168,7 +169,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Wedding Guest Dresses
+            <Link to="/products/Dresses">Wedding Guest Dresses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -178,7 +179,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Robers & Lingore
+            <Link to="/products/Dresses">Robers & Lingore</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -188,7 +189,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Sunglasses & Reading Glasses
+            <Link to="/products/Dresses">Sunglasses & Reading Glasses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -198,7 +199,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Travel & Tech
+            <Link to="/products/Dresses">Travel & Tech</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -229,7 +230,7 @@ function FooteWedding(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Spring Everleastin
+            <Link to="/products/Dresses">Spring Everleastin</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -239,7 +240,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New Spring Gow
+            <Link to="/products/Dresses">New Spring Gow</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -249,7 +250,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Bracelets
+            <Link to="/products/Dresses">Bracelets</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -259,7 +260,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Rings
+            <Link to="/products/Dresses">Rings</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -269,7 +270,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Hoop Shop
+            <Link to="/products/Dresses">Hoop Shop</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -279,7 +280,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Manogram
+            <Link to="/products/Dresses">Manogram</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -310,7 +311,7 @@ function FooteWedding(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            The Peri Edit
+            <Link to="/products/Dresses">The Peri Edit</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -320,7 +321,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Sings Bags
+            <Link to="/products/Dresses">Sings Bags</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -330,7 +331,7 @@ function FooteWedding(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Birken stock
+            <Link to="/products/Dresses">Birken stock</Link>
           </GridItem>
         </GridItem>
         <GridItem

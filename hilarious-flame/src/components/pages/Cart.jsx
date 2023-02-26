@@ -8,27 +8,49 @@ import Navbar from "../chakra/Navbar";
 import styles from "../style/Cart.module.css";
 import { useState } from "react";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Accordation from "../chakra/Accordation";
+import Toaster from "./Toaster";
+import Footer from "../chakra/Footer";
+import { pagecontext } from "../Context/Pagecontextprovider";
+import { useContext } from "react";
 function Cart() {
+  let { userAuth } = useContext(pagecontext);
   let [data, sedata] = useState([]);
+  let navigate = useNavigate();
   let sum = 0;
   useEffect(() => {
     let cart = JSON.parse(localStorage.getItem("Cart")) || [];
     sedata(cart);
   }, []);
 
+  let checkout = () => {
+    if (userAuth) {
+      navigate("/address");
+    } else {
+      navigate("/signup");
+    }
+  };
   let quantityhandler = (id, value) => {
     let arr = data.filter((el) => {
       if (id == el.id) {
-        console.log(el);
-        return { ...el, quantity: value };
+        el.quantity = value;
+        return el;
       } else {
         return el;
       }
     });
-    // console.log(arr);
     sedata(arr);
+    localStorage.setItem("Cart", JSON.stringify(data));
+  };
+  let delate = (id) => {
+    let arr = data.filter((el) => {
+      if (el.id != id) {
+        return el;
+      }
+    });
+    sedata(arr);
+    localStorage.setItem("Cart", JSON.stringify(data));
   };
   return (
     <>
@@ -116,9 +138,17 @@ function Cart() {
                         <option>3</option>
                       </select>
                     </GridItem>
-                    <GridItem className={styles.brand}>
+                    <GridItem className={styles.brand} position="relative">
                       <span className={styles.bold}>Total Price</span> $
                       {e.price * e.quantity}.00
+                      <button
+                        position={"absolute"}
+                        right="0%"
+                        top={"1%"}
+                        onClick={() => delate(e.id)}
+                      >
+                        <Toaster />
+                      </button>
                     </GridItem>
                   </>
                 );
@@ -147,8 +177,10 @@ function Cart() {
                 Or 4 interest-free installments of $117.00 with Klarna
                 orAfterpay
               </Text>
-              <button className={styles.btn}>Procced To Checkout</button>
-              <Text>
+              <button className={styles.btn} onClick={checkout}>
+                Procced To Checkout
+              </button>
+              <Text marginBottom={"20px"}>
                 <Link to="/" className={styles.shoping}>
                   Countinue Shopping
                 </Link>
@@ -158,6 +190,7 @@ function Cart() {
           </GridItem>
         </Grid>
       </Box>
+      <Footer />
     </>
   );
 }

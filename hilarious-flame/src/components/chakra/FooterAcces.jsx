@@ -52,7 +52,7 @@ function FooterAcces(props) {
             paddingTop={"18px"}
             className={styles.text}
           >
-            Shop Alll Accessories
+            <Link to="/products/Jewelry">Shop Alll Accessories</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -62,7 +62,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            New!
+            <Link to="/products/Jewelry">New!</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -72,7 +72,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Top Rated
+            <Link to="/products/Jewelry">Top Rated</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -82,7 +82,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Boots & Booties
+            <Link to="/products/Jewelry">Boots & Booties</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -92,7 +92,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Bags & Small Accessories
+            <Link to="/products/Jewelry">Bags & Small Accessories</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -102,7 +102,7 @@ function FooterAcces(props) {
             onMouseLeave={acccesHandle}
             className={styles.text}
           >
-            Belts
+            <Link to="/products/Jewelry">Belts</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -112,7 +112,7 @@ function FooterAcces(props) {
             onMouseLeave={acccesHandle}
             className={styles.text}
           >
-            Hair Accessories
+            <Link to="/products/Jewelry">Hair Accessories</Link>
           </GridItem>
         </GridItem>
         <GridItem
@@ -143,7 +143,7 @@ function FooterAcces(props) {
             className={styles.text}
             paddingTop={"18px"}
           >
-            Hats
+            <Link to="/products/Jewelry">Hats</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -153,7 +153,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Jewelry
+            <Link to="/products/Jewelry">Jewelry</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -163,7 +163,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Scarves
+            <Link to="/products/Jewelry">Scarves</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -173,7 +173,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Socks & Tights
+            <Link to="/products/Jewelry">Socks & Tights</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -183,7 +183,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Sunglasses & Reading Glasses
+            <Link to="/products/Jewelry">Sunglasses & Reading Glasses</Link>
           </GridItem>
           <GridItem
             position={"relative"}
@@ -193,7 +193,7 @@ function FooterAcces(props) {
             paddingBottom="6px"
             className={styles.text}
           >
-            Travel & Tech
+            <Link to="/products/Jewelry">Travel & Tech</Link>
           </GridItem>
         </GridItem>
         <GridItem

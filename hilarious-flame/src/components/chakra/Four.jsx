@@ -35,74 +35,82 @@ function Four() {
           <Image src="https://images.ctfassets.net/5de70he6op10/5KjWlD2oXag0PlTbafqAWL/2a4e32e4cfc0b818e4cda11687d1498b/473929283-ls_m0_banner_h.jpg?w=630&q=80&fm=webp" />
         </GridItem>
       </Grid>
-      <Box position={"relative"}>
-        <Image src="https://images.ctfassets.net/5de70he6op10/3eri4S7CUYNA223W694QUo/890cffce3e1cc21308f3051be0a76baa/473929293-ls_m1.jpg?w=2694&q=80&fm=webp"></Image>
-        <Button
-          variant="link"
-          position={"absolute"}
-          bottom="20px"
-          left={{ base: "40%", md: "50%" }}
-          className={styles.btn}
-          height={"40px"}
-          borderRadius={"0%"}
-          fontWeight={400}
-          fontSize="13px"
-        >
-          Shop Address
-        </Button>
-      </Box>
+      <Link to="/products/Dresses">
+        <Box position={"relative"}>
+          <Image src="https://images.ctfassets.net/5de70he6op10/3eri4S7CUYNA223W694QUo/890cffce3e1cc21308f3051be0a76baa/473929293-ls_m1.jpg?w=2694&q=80&fm=webp"></Image>
+          <Button
+            variant="link"
+            position={"absolute"}
+            bottom="20px"
+            left={{ base: "40%", md: "50%" }}
+            className={styles.btn}
+            height={"40px"}
+            borderRadius={"0%"}
+            fontWeight={400}
+            fontSize="13px"
+          >
+            Shop Address
+          </Button>
+        </Box>
+      </Link>
       <Grid
         gridTemplateColumns={{ base: "repeat(1,1fr)", md: "repeat(3,1fr)" }}
         gap={6}
         marginTop={"35px"}
       >
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/24XjZK35JsGCP4fmCO8580/6d8469a59dd0fea277acaa832dac4786/473929297-ls_m2a.jpg?w=856&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            Shop new Clothing
-          </Button>
+          <Link to="/products/Dresses">
+            <Image src="https://images.ctfassets.net/5de70he6op10/24XjZK35JsGCP4fmCO8580/6d8469a59dd0fea277acaa832dac4786/473929297-ls_m2a.jpg?w=856&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              Shop new Clothing
+            </Button>
+          </Link>
         </GridItem>
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/3i7R768ERr5ciI56znod56/151bbbbe9b52ff4c5fca01f76720fcbe/473929303-ls_m2b.jpg?w=856&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            The Gateway Shop
-          </Button>
+          <Link to="/products/Shoes">
+            <Image src="https://images.ctfassets.net/5de70he6op10/3i7R768ERr5ciI56znod56/151bbbbe9b52ff4c5fca01f76720fcbe/473929303-ls_m2b.jpg?w=856&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              The Gateway Shop
+            </Button>
+          </Link>
         </GridItem>
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/EO7OfU3ZWf8n7njPYNrCo/097740c34d53fbad8d6bbae669514b4a/473929312-ls_m2c.jpg?w=856&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            Shop Swimmer
-          </Button>
+          <Link to="/products/Jewelry">
+            <Image src="https://images.ctfassets.net/5de70he6op10/EO7OfU3ZWf8n7njPYNrCo/097740c34d53fbad8d6bbae669514b4a/473929312-ls_m2c.jpg?w=856&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              Shop Swimmer
+            </Button>
+          </Link>
         </GridItem>
       </Grid>
       <Grid
@@ -111,36 +119,40 @@ function Four() {
         marginTop={"35px"}
       >
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/5SpSw7RKfexkiiBBqnTSz0/020ab583c49d60f3053868bbaf0ed2e8/473929316-ls_m3a.jpg?w=1302&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            Shop Kitchen & Dining
-          </Button>
+          <Link to="/products/Jewelry">
+            <Image src="https://images.ctfassets.net/5de70he6op10/5SpSw7RKfexkiiBBqnTSz0/020ab583c49d60f3053868bbaf0ed2e8/473929316-ls_m3a.jpg?w=1302&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              Shop Kitchen & Dining
+            </Button>
+          </Link>
         </GridItem>
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/6VLdLozl8tBTMYC7Bjy39f/29875f9e1e26ad89cd2a502f70dc9eba/473929321-ls_m3b.jpg?w=1302&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            Shop Furniture
-          </Button>
+          <Link to="/products/Dresses">
+            <Image src="https://images.ctfassets.net/5de70he6op10/6VLdLozl8tBTMYC7Bjy39f/29875f9e1e26ad89cd2a502f70dc9eba/473929321-ls_m3b.jpg?w=1302&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              Shop Furniture
+            </Button>
+          </Link>
         </GridItem>
       </Grid>
       <Grid
@@ -149,52 +161,58 @@ function Four() {
         marginTop={"35px"}
       >
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/wH3s9ULThzua1X1ZTzDMx/3a9607dc9e8636eb96ca159919afa542/473929336-ls_m4a.jpg?w=856&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            Shop new Clothing
-          </Button>
+          <Link to="/products/Dresses">
+            <Image src="https://images.ctfassets.net/5de70he6op10/wH3s9ULThzua1X1ZTzDMx/3a9607dc9e8636eb96ca159919afa542/473929336-ls_m4a.jpg?w=856&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              Shop new Clothing
+            </Button>
+          </Link>
         </GridItem>
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/2ABHGD0yJQ3NHq6iiJWTUw/194b56bf722572e79d65a9ed6293bb46/473929340-ls_m4b.jpg?w=856&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            The Gateway Shop
-          </Button>
+          <Link to="/products/Shoes">
+            <Image src="https://images.ctfassets.net/5de70he6op10/2ABHGD0yJQ3NHq6iiJWTUw/194b56bf722572e79d65a9ed6293bb46/473929340-ls_m4b.jpg?w=856&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              The Gateway Shop
+            </Button>
+          </Link>
         </GridItem>
         <GridItem position={"relative"}>
-          <Image src="https://images.ctfassets.net/5de70he6op10/7yrEmAMeP6Kx7XthafpP8b/cb1869eb48809f1b667c1b1262cc8085/473929343-ls_m4c.jpg?w=856&q=80&fm=webp" />
-          <Button
-            variant="link"
-            position={"absolute"}
-            bottom="20px"
-            left={{ base: "40%", md: "40%" }}
-            className={styles.btn}
-            height={"40px"}
-            borderRadius={"0%"}
-            fontWeight={400}
-            fontSize="13px"
-          >
-            Shop Swimmer
-          </Button>
+          <Link to="/products/Jewelry">
+            <Image src="https://images.ctfassets.net/5de70he6op10/7yrEmAMeP6Kx7XthafpP8b/cb1869eb48809f1b667c1b1262cc8085/473929343-ls_m4c.jpg?w=856&q=80&fm=webp" />
+            <Button
+              variant="link"
+              position={"absolute"}
+              bottom="20px"
+              left={{ base: "40%", md: "40%" }}
+              className={styles.btn}
+              height={"40px"}
+              borderRadius={"0%"}
+              fontWeight={400}
+              fontSize="13px"
+            >
+              Shop Swimmer
+            </Button>
+          </Link>
         </GridItem>
       </Grid>
       <Divider />

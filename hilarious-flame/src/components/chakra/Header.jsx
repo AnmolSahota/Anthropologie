@@ -49,7 +49,12 @@ function Header() {
               <Input placeholder="  Anthropologie" />
               <InputRightElement children={<SearchIcon color="green.500" />} />
             </InputGroup>
-            <Text marginLeft={"10px"} marginRight={"10px"} marginTop={"10px"}>
+            <Text
+              marginLeft={"10px"}
+              marginRight={"10px"}
+              marginTop={"10px"}
+              position="relative"
+            >
               <Link to="/cart">
                 <FontAwesomeIcon icon={faShoppingBag} fontSize="18px" />
               </Link>

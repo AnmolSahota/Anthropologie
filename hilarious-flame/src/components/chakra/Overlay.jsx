@@ -39,7 +39,7 @@ function Overlay({ text, position, top, bottom, left, bg }) {
         _hover={{
           background: "white",
           color: "teal.500",
-          border:'1px solid '
+          border: "1px solid ",
         }}
         onClick={() => {
           setOverlay(<OverlayOne />);
@@ -57,7 +57,7 @@ function Overlay({ text, position, top, bottom, left, bg }) {
           <ModalHeader>Congrulations ! </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Text>{text}</Text>
+            <Text>{text} ✌️</Text>
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Close</Button>

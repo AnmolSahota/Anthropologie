@@ -12,6 +12,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 function Drawermenu() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = React.useState("right");
@@ -21,18 +22,38 @@ function Drawermenu() {
       <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerHeader borderBottomWidth="1px">Explore from Here!</DrawerHeader>
+          <DrawerHeader borderBottomWidth="1px">
+            Explore from Here!
+          </DrawerHeader>
           <DrawerBody>
-            <p className={styles.ham} >New !</p>
-            <p className={styles.ham}>Dresses</p>
-            <p className={styles.ham}>Clothing</p>
-            <p className={styles.ham}>Shoes</p>
-            <p className={styles.ham}>Accessories</p>
+            <Link to="/products/Dresses">
+              <p className={styles.ham}>New !</p>
+            </Link>
+            <Link to="/products/Dresses">
+              <p className={styles.ham}>Dresses</p>
+            </Link>
+            <Link to="/products/Dresses">
+              <p className={styles.ham}>Clothing</p>
+            </Link>
+            <Link to="/products/Shoes">
+              <p className={styles.ham}>Shoes</p>
+            </Link>
+            <Link to="/products/Jewelry">
+              <p className={styles.ham}>Accessories</p>
+            </Link>
             <p className={styles.ham}>Wedding</p>
-            <p className={styles.ham}>Buety</p>
-            <p className={styles.ham}>Gift & Candies</p>
-            <p className={styles.ham}>Garden & Outdoor</p>
-            <p className={styles.ham}>Sale</p>
+            <Link to="/products/Jewelry">
+              <p className={styles.ham}>Buety</p>
+            </Link>
+            <Link to="/products/Dresses">
+              <p className={styles.ham}>Gift & Candies</p>
+            </Link>
+            <Link to="/products/Shoes">
+              <p className={styles.ham}>Garden & Outdoor</p>
+            </Link>
+            <Link to="/products/Shoes">
+              <p className={styles.ham}>Sale</p>
+            </Link>
           </DrawerBody>
         </DrawerContent>
       </Drawer>

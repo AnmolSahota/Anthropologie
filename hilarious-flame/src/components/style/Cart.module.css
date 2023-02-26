@@ -80,3 +80,20 @@
   color: teal;
   text-decoration: underline;
 }
+.order {
+  color: #26262c;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.addresspara {
+  font-weight: 14px;
+  color: #4b5666;
+}
+.label{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: #4b5666;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}

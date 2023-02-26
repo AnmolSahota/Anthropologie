@@ -130,18 +130,43 @@ function Product() {
           borderBottom="1px solid #A0AEC0"
         >
           <Text>Browse by:</Text>
-          <Box className={styles.para}>Outdoor Living</Box>
-          <Text className={styles.para}>Fire Pits & Accessories</Text>
-          <Text className={styles.para}>Lighting & Lanterns</Text>
-          <Text className={styles.para}>Doormats & Outdoor Rugs</Text>
-          <Text className={styles.para}>Outdoor Dining</Text>
-          <Text className={styles.para}>Sun & Insect Protection</Text>
-          <Text className={styles.para}>Wedding vacation</Text>
-          <Text className={styles.para}>Pary time with Sneakers</Text>
-          <Text className={styles.para}>Cocktail Wedding</Text>
-          <Text className={styles.para}>Lounge & Casual Dresses</Text>
-          <Text className={styles.para}>Jumpsuits</Text>
-          <Text className={styles.para}>Cocktail & Party Dresses</Text>
+          <Box className={styles.para}>
+            <Link to="/products/Dresses">Outdoor Living</Link>
+          </Box>
+          <Text className={styles.para}>
+            <Link to="/products/Shoes">Fire Pits & Accessories</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Jewelry">Lighting & Lanterns</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Dresses">Doormats & Outdoor Rugs</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Shoes">Outdoor Dining</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Jewelry"></Link>
+            Sun & Insect Protection
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Dresses">Wedding vacation</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Shoes">Pary time with Sneakers</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Jewelry">Cocktail Wedding</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Dresses">Lounge & Casual Dresses</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Shoes">Jumpsuits</Link>
+          </Text>
+          <Text className={styles.para}>
+            <Link to="/products/Jewelry">Cocktail & Party Dresses</Link>
+          </Text>
         </GridItem>
         <GridItem position={"relative"}>
           <Box fontWeight={500}>
