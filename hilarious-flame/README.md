@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<h1>Anthropologie</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Anthropologie is a unique, full-lifestyle shopping destination, with a mostly exclusive assortment of clothing, shoes, accessories, beauty, furniture, home décor, garden, bridal, and more.
 
-## Available Scripts
+A Individual  project built span of 5 days.
 
-In the project directory, you can run:
+<h2>Demo 🎥</h2>
 
-### `npm start`
+Deployed Link:- https://flame-two.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+JSON-SERVER:- https://bewildered-tick-costume.cyclic.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h1>Tech Stack 💻</h1>
+<ul>
+<li>React</li>
+<li>JSON-SERVER</li>
+<li>Javascript</li>
+<li>Axios</li>
+<li>CSS</li>
+<li>Chakra-UI</li>
+</ul>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1>Features ✨</h1>
 
-### `npm run build`
+<ul>
+<li>Authentication process undercover with Local Storage.</li>
+<li>All the product description, prices, discounts, are updated in real time.</li>
+<li>Dynamic Products by JSON-SERVER</li>
+<li>CSS</li>
+<li>Chakra-UI</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1>Responsibilities 💪</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<ul>
+<li>Landing page UI consisting of megadrown navbar, carasouel, animated image cards and authentications i.e.; Login & Register</li>
+<li>Implementation of local storage on authentications</li>
+<li>Creating JSON-SERVER</li>
+<li>Address, payment, checkout done with using local storage concepts</li>
+<li>Implimenting responsiveness with CHAKRA-UI</li>
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Contributors 😇</h1>
+<ul>
+<li>Anmol Sahota</li>
+</ul>
